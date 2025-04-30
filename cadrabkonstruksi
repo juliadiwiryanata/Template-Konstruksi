@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jual File Konstruksi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1e40af;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.02);
+    }
+    .product h2 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+    .product p {
+      margin: 0.5rem 0;
+    }
+    .product a,
+    .product button {
+      display: inline-block;
+      margin-top: 1rem;
+      background-color: #1e40af;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #374bd0;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #1e40af;
+      font-weight: 600;
+      margin-left: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div><strong>JualFileKonstruksi</strong></div>
+    <div>
+      <a href="#">Beranda</a>
+      <a href="#">Produk</a>
+      <a href="#">Kontak</a>
+      <a href="#">Login</a>
+    </div>
+  </div>
+  <header>
+    <h1>Jual File Konstruksi</h1>
+    <p>AutoCAD, RAB, Gambar Kerja, dan Template Siap Pakai</p>
+  </header>
+  <div class="container">
+    <div class="product">
+      <h2>Template RAB Rumah Minimalis</h2>
+      <p>Format Excel siap edit, lengkap dengan harga satuan dan volume pekerjaan.</p>
+      <button onclick="alert('Pembayaran via QRIS, transfer, atau Midtrans akan ditambahkan di versi live.')">Beli Sekarang</button>
+    </div>
+    <div class="product">
+      <h2>Gambar Kerja AutoCAD Rumah Type 36</h2>
+      <p>File DWG lengkap: denah, potongan, tampak, dan detail.</p>
+      <button onclick="alert('Pembayaran via QRIS, transfer, atau Midtrans akan ditambahkan di versi live.')">Beli Sekarang</button>
+    </div>
+    <div class="product">
+      <h2>Template Proposal Penawaran Proyek</h2>
+      <p>Format Word dan PDF, cocok untuk tender atau penawaran jasa konstruksi.</p>
+      <button onclick="alert('Pembayaran via QRIS, transfer, atau Midtrans akan ditambahkan di versi live.')">Beli Sekarang</button>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 JualFileKonstruksi. Semua Hak Dilindungi. | <a href="#" style="color:#1e40af">Kontak Kami</a>
+  </footer>
+</body>
+</html>
